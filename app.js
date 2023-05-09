@@ -388,13 +388,7 @@ $(document).ready(function() {
        
 
         
-        function selectSheet(ele) {
-            $(".sheet-tab.selected").removeClass("selected");
-            $(ele).addClass("selected");
-            emptySheet();
-            selectedSheet = $(ele).text();
-            loadSheet();
-        }
+     
         
 
 
