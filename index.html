@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Excel CLone</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Excel Clone</title>
 </head>
 <body>
     <div class="container">
@@ -17,7 +18,7 @@
             <div class="menu-layout menu-item">Layout</div>
             <div class="menu-help menu-item">Help</div>
         </div>
-         <div class="menu-icon-bar">
+        <div class="menu-icon-bar">
             <div class="material-icons menu-icon icon-cut ">content_cut</div>
             <div class="material-icons menu-icon icon-copy">content_copy</div>
             <div class="material-icons menu-icon icon-paste">content_paste</div> 
@@ -33,7 +34,8 @@
                 <option style="font-family: Lato;" value="Lato" >Lato</option>
                 <option style="font-family:Verdana;" value="Verdana">Verdana</option>
             </select> 
-               <select class="selector font-size-selector">
+            
+            <select class="selector font-size-selector">
                 <option value="10px">10</option>
                 <option value="11px">11</option>
                 <option value="12px">12</option>
@@ -70,6 +72,8 @@
                 <input class="color-picker text-color-picker" type="color" />
                 <div class="material-icons color-fill-text">format_color_text</div>
             </div>
+            
+
         </div>
         <div class="formula-bar">
             <div class="formula-editor selected-cell"></div>
@@ -102,7 +106,7 @@
                     <div class="input-cell" contenteditable="true" id="row-1-col-1" data="code-A"></div>
                     <div class="input-cell" contenteditable="true"></div>
                 </div> -->
-            </div>     
+            </div>        
         </div>
         <div class="sheet-bar">
             <div class="scroller">
@@ -114,7 +118,7 @@
                 <div class="sheet-tab selected" >Sheet1</div>
             </div>
         </div>
-         <!-- <div class="sheet-options-modal">
+        <!-- <div class="sheet-options-modal">
             <div class="sheet-rename">Rename</div>
             <div class="sheet-delete">Delete</div>
         </div> -->
@@ -128,6 +132,6 @@
         </div> -->
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="app.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

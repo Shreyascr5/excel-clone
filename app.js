@@ -385,6 +385,8 @@ $(document).ready(function() {
         })
 
         addSheetEvents();
+       
+
         
         function selectSheet(ele) {
             $(".sheet-tab.selected").removeClass("selected");
@@ -393,9 +395,6 @@ $(document).ready(function() {
             selectedSheet = $(ele).text();
             loadSheet();
         }
-
-        
-     
         
 
 
