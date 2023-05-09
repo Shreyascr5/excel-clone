@@ -359,8 +359,3 @@ body{
 
 }
 
-.cancel-button:hover{
-    cursor: pointer;
-    background-color: gray;
-    color: white;
-}
